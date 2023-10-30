@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2"
+        android:layout_marginTop="65dp">
+
+        <!-- Table Headers -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ticker"
+                android:padding="8dp"
+                android:gravity="center"
+                android:background="#CCCCCC"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:padding="8dp"
+                android:gravity="center"
+                android:background="#CCCCCC"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Percentage Change"
+                android:padding="8dp"
+                android:gravity="center"
+                android:background="#CCCCCC"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <!-- Table rows will be added dynamically in code -->
+
+    </TableLayout>
+</LinearLayout>

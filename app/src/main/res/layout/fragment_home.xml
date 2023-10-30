@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fundsForTradingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Funds for Trading: "
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginTop="55dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/totalCashFlowTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cash Flow: "
+            android:textSize="18sp"
+            android:padding="6dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/bestAndWorstPerformers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best and Worst performers"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/bestAndWorstPerformingContents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp" />
+
+
+
+        <TextView
+            android:id="@+id/chartTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Portfolio Growth"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/tcfGrowth"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/generalNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top Headlines"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+        <!-- RecyclerView for displaying news titles -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/generalNewsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="16dp"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

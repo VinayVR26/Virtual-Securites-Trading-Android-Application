@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "683181548604",
+    "firebase_url": "https://bold-listener-391506-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bold-listener-391506",
+    "storage_bucket": "bold-listener-391506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683181548604:android:a1b9e43bd0f3a66ec34f39",
+        "android_client_info": {
+          "package_name": "securitytrading.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683181548604-dj6vav42iiq03b6fn78c23arack2680f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYFfrvHLVgikliu4QfZYVDxiDr805wXWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683181548604-ch8mq8ej9df49ao2rqjin9hojfhuglq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

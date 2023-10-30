@@ -1,0 +1,62 @@
+<!-- res/layout/activity_add_event.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEventActivity">
+
+    <EditText
+        android:id="@+id/eventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Title"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+    <!-- <ToggleButton
+        android:id="@+id/eventCompletedToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventTitle"
+        android:layout_marginTop="16dp"
+        android:textOn="Completed"
+        android:textOff="Not Completed"
+        android:checked="false"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" /> -->
+
+    <Button
+        android:id="@+id/pickDateTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Date and Time"
+        android:layout_below="@id/eventTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+    <!-- You can use a TextView or another view to display the selected date and time -->
+
+    <Button
+        android:id="@+id/saveEventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/pickDateTimeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@id/saveEventButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+</RelativeLayout>
