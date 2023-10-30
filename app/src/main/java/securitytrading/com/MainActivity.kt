@@ -34,7 +34,6 @@ import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
-import com.google.firebase.storage.StorageReference
 import com.squareup.picasso.Picasso
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -62,7 +61,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     val fAuth = FirebaseAuth.getInstance()
     val fStore = FirebaseFirestore.getInstance()
-    val fStorage = FirebaseStorage.getInstance()
 
     private var searchResultsPopup: PopupWindow? = null
 

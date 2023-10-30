@@ -24,10 +24,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
 import java.net.URL
-import java.text.DecimalFormat
 import java.time.LocalDateTime
-import java.util.Timer
-import java.util.TimerTask
 
 
 class PortfolioFragment : Fragment() {

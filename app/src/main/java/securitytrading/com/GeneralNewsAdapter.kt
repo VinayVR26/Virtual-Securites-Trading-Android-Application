@@ -4,7 +4,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.squareup.picasso.Picasso // For loading images
+import com.squareup.picasso.Picasso
 import securitytrading.com.HomeFragment.NewsResponse
 import securitytrading.com.R
 import java.text.SimpleDateFormat
